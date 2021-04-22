@@ -8,11 +8,17 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background: #333;
+    background: #004643;
+    height: 100%;
+    position: relative;
 }
 nav{
+    margin: 0 auto;
+    width: 70rem;
+    height: 3rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav a{
     color:#fff;
@@ -20,12 +26,15 @@ nav a{
 nav ul{
     display: flex;
 }
+nav ul li{
+    margin: 0 1rem;
+}
 main{
     width: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 5rem auto 5rem;
 }
 .section__left{
     display: flex;
@@ -33,7 +42,8 @@ main{
     align-items: center;
     justify-content: center;
     width: 40%;
-    background: chocolate;
+    background: #e8e4e6;
+    
 }
 .section__left div img{
     border-radius: 50%;
@@ -54,37 +64,56 @@ main{
 .section__left .profile-data p{
     width: 80%;
     height: 2.5rem;
-    background: cyan;
+    background: #abd1c6;
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .section__right{
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    justify-content: center;
+    /* justify-content: center; */
     width: 55%;
-    background: cornflowerblue;
+    background: #ececec;
+    height: 407.33px;
 }
-.section__right div{
+.section__right > div{
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 90%;
+    
 }
-.section__right div:nth-child(1){
-    margin-bottom: 1.5rem;
+.section__right > div:first-child{
+    margin-bottom: 3.5rem;
+    margin-top: 2rem;
+    
 }
+
 .section__right div div{
-    width: 30%;
-    height: 2rem;
-    background: chartreuse;
+    width: 45%;
+    height: 100%;
+    background: #f9bc60;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
+    border-radius: 5px;
+    
 }
 .section__right div p{
-    margin: 0 .9rem;
+    margin-left: .5rem;
+}
+.section__right > div:first-child > p{
+    margin-left: 0;
+}
+.main-about{
+    height: 50rem;
+    background: #abd1c6;
 }
 footer{
     display: flex;
@@ -94,7 +123,7 @@ footer{
     bottom:0;
     width:100%;
     height: 3rem;
-    background: #555;
+    background: #004643;
 }
 footer a {
 
