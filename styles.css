@@ -78,7 +78,7 @@ main{
     /* justify-content: center; */
     width: 55%;
     background: #ececec;
-    height: 407.33px;
+    height: 406.5px;
 }
 .section__right > div{
     display: flex;
@@ -88,10 +88,18 @@ main{
     width: 90%;
     
 }
+.section__right > div .title-text{
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: .8rem;
+
+}
 .section__right > div:first-child{
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .section__right div div{
@@ -112,8 +120,55 @@ main{
     margin-left: 0;
 }
 .main-about{
-    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #abd1c6;
+   /*  margin-bottom: 5rem; */
+   
+   height: 100rem;
+   
+}
+.main-about .about__top{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-about .about__top p{
+    margin: 3rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.main-about .about__underneath{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-about .about__underneath p{
+    margin: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.main-about .about__boxes{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.main-about .about__boxes .about__box{
+    width: 50%;
+}
+.main-about > div:last-child{
+    margin-bottom: 3rem;
+}
+.main-about .about__image img{
+    width: 1000px;
+    height: 33rem;
+    margin: 4rem 0 ;
 }
 footer{
     display: flex;

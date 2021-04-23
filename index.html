@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,38 @@
     <title>Generate User</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <a href="index.html">LOGO</a>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#">Contact</a></li>
-        </ul>     
+        </ul>
     </nav>
     <main>
         <section class="section__left">
             <div><img src="https://randomuser.me/api/portraits/women/33.jpg" alt="profile image" class="image"></div>
-            
+
             <p class="profile__name">A</p>
-            
+
             <div class="profile-data">
-            <p class="profile__mail">A</p>
-            <p class="profile__birthday">A</p>
-            <p class="profile__address">A</p>
-            <p class="profile__phone">A</p>
+                <p class="profile__mail">A</p>
+                <p class="profile__birthday">A</p>
+                <p class="profile__address">A</p>
+                <p class="profile__phone">A</p>
             </div>
-            
+
         </section>
         <section class="section__right">
             <div>
-                <p class="pricipal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur blanditiis excepturi cupiditate porro cum architecto iure esse sunt odio ad id expedita perspiciatis consequatur quia magni, veniam quaerat deleniti laboriosam.</p>
+                <span class="title-text">User Generator</span>
+                <p class="pricipal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
+                    blanditiis excepturi cupiditate porro cum architecto iure esse sunt odio ad id expedita perspiciatis
+                    consequatur quia magni, veniam quaerat deleniti laboriosam.</p>
             </div>
             <div>
                 <div class="btn-principal">Generate user</div>
@@ -47,16 +52,48 @@
             <div>
                 <div class="btn-women">Generate female user</div>
                 <p class="btn-information">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>         
+            </div>
         </section>
     </main>
-    <div class="main-about">
-        <p>...</p>
+    <div class="main-about" id="about">
+        <div class="about__top">
+            <p>ABOUT</p>
+        </div>
+        <div class="about__underneath">
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, necessitatibus possimus rerum optio
+                ducimus doloribus illo ullam repudiandae."</p>
+        </div>
+        <div class="about__boxes">
+            <section class="about__box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt commodi totam illum. Harum dolor
+                    similique deleniti temporibus doloribus ab quidem tempora! Facilis aliquid eum corrupti repellendus
+                    quos laudantium numquam fugiat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere reiciendis, exercitationem
+                    <br>
+                    <br>
+                    repudiandae quisquam ea alias quaerat fugiat? Architecto asperiores itaque enim consectetur
+                    assumenda sunt dolorum tempora delectus praesentium laboriosam.
+                </p>
+            </section>
+            <section class="about__box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quaerat tempore repellendus?
+                    Reprehenderit aut praesentium ipsa inventore exercitationem incidunt natus, laudantium ut itaque,
+                    commodi aliquid debitis! Reiciendis ad dicta itaque. <br> <br>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magni autem, minus ipsa impedit
+                    molestiae nostrum, praesentium officiis quibusdam odio iste quae eligendi explicabo! Similique
+                    ducimus doloremque atque laboriosam omnis!</p>
+            </section>
+        </div>
+        <div class="about__image">
+            <img src="/media/team.jpg" alt="team">
+        </div>
     </div>
     <footer>
         <a href="https://github.com/Joellucana02" target="_blank">Github</a>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-</body>     
+</body>
+
 </html>
